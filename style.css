@@ -81,5 +81,25 @@ body{
 .bubbles:hover{
     background-color: #029fca;
 }
-
+@media only screen and (max-width: 600px) {
+    #bubbleBox{
+        gap: 8px;
+        padding: 10px;
+    }
+    #box{
+        width: 95%;
+       
+    }
+    #resultBox {
+        gap: 25px;
+    }
+    .score{
+        padding: 5px 10px;
+    }
+    .scoreBoard{
+        gap: 5px;
+        font-size: 20px;
+       
+    }
+  }
 
